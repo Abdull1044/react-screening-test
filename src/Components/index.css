@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 100vh;
+  overflow: auto;
+}
+.listItem {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000;
+}
