@@ -1,3 +1,3 @@
 import Articles from "./Articles";
-
-export { Articles };
+import sortArticles from "./DataSoting";
+export { Articles,sortArticles };
