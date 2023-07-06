@@ -24,7 +24,16 @@ function App() {
         >
           Most Upvoted
         </button>
-        <button >Most Recent</button>
+        <button
+          onClick={() => {
+            const sortedByDate = [...Articles].sort(
+              (a, b) => new Date(b.date) - new Date(a.date)
+            );
+            setData(sortedByDate);
+          }}
+        >
+          Most Recent
+        </button>
       </div>
     </div>
   );
