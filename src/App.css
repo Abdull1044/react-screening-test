@@ -12,18 +12,15 @@
   flex-direction: row;
 }
 
-
-
 .ButtonContainer {
   margin-top: 1rem;
+
 }
 
 .ButtonContainer button {
-  margin: 0 0.5rem;
+  margin: 0 1.5rem;
   background-color: rgb(148, 191, 248);
   color: black;
   height: 30px;
-  width: max-content;
+  width: 100px;
 }
-
-

@@ -34,6 +34,13 @@ function App() {
         >
           Most Recent
         </button>
+        <button
+          onClick={() => {
+            setData(Articles);
+          }}
+        >
+          Reset
+        </button>
       </div>
     </div>
   );
