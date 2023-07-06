@@ -1,7 +1,7 @@
 import React from "react";
-import { Articles } from "../Data";
+
 import "./index.css";
-function ArticleList() {
+function ArticleList({Articles}) {
   return (
     <div className="list">
       {Articles?.map(({ title, upvotes, date }, index) => (

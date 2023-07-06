@@ -49,44 +49,6 @@ const Articles = [
     upvotes: 7,
     date: "2023-07-02",
   },
-  {
-    title: "Article 7",
-    upvotes: 20,
-    date: "2023-07-04",
-  },
-  {
-    title: "Article 8",
-    upvotes: 6,
-    date: "2023-06-28",
-  },
-  {
-    title: "Article 9",
-    upvotes: 14,
-    date: "2023-07-01",
-  },
-  {
-    title: "Article 10",
-    upvotes: 7,
-    date: "2023-07-02",
-  }, {
-    title: "Article 7",
-    upvotes: 20,
-    date: "2023-07-04",
-  },
-  {
-    title: "Article 8",
-    upvotes: 6,
-    date: "2023-06-28",
-  },
-  {
-    title: "Article 9",
-    upvotes: 14,
-    date: "2023-07-01",
-  },
-  {
-    title: "Article 10",
-    upvotes: 7,
-    date: "2023-07-02",
-  },
+  
 ];
 export default Articles;
