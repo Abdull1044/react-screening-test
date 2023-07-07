@@ -3,13 +3,7 @@ import { List, Row, Col } from "antd";
 function ArticlesList({data}) {
   return (
     <div
-      style={{
-        height: 500,
-        width: "80%",
-        overflow: "auto",
-        padding: "0 16px",
-        border: "1px solid rgba(140, 140, 140, 0.35)",
-      }}
+    className="articles_list"
     >
       <List
         itemLayout="horizontal"

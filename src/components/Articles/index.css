@@ -1,0 +1,32 @@
+.articles {
+  height: 85vh;
+  width: 100%;
+  padding-top: 20;
+}
+
+.content_center {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.articles_list {
+  margin-top: 20px;
+  width: 80%;
+  overflow: auto;
+  height: 500px;
+  padding: 0 16px;
+  border: 1px solid rgba(140, 140, 140, 0.35);
+}
+
+.h50 {
+  height: 50%;
+}
+
+.h20 {
+  height: 20%;
+}

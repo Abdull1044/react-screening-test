@@ -36,7 +36,6 @@ export default function Router() {
       element: <CommonLayout />,
       children: [
         { path: PATH_DASHBOARD.articles, element: <Articles /> },
-        { path: "*", element: <Navigate to={"/404"} /> },
       ],
     },
     {
