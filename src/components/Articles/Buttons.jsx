@@ -5,11 +5,7 @@ function Buttons({ setData }) {
   return (
     <Row justify={"center"}>
       <Col span={4}>
-        <Button
-          onClick={() => {
-            setData(DataSorting["upvotes"]);
-          }}
-        >
+        <Button onClick={() => setData(DataSorting["upvotes"])}>
           Most Upvoted
         </Button>
       </Col>
