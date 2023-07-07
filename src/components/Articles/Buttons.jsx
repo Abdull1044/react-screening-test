@@ -14,7 +14,7 @@ function Buttons({ setData }) {
         </Button>
       </Col>
       <Col span={4}>
-        <Button>Most Recent</Button>
+        <Button onClick={()=>setData(DataSorting['date'])}>Most Recent</Button>
       </Col>
       <Col span={4}>
         <Button>Reset</Button>
