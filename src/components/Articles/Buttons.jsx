@@ -1,11 +1,17 @@
 import { Row, Col, Button } from "antd";
 import React from "react";
-
+import { DataSorting } from "../../data";
 function Buttons({ setData }) {
   return (
     <Row justify={"center"}>
       <Col span={4}>
-        <Button>Most Upvoted</Button>
+        <Button
+          onClick={() => {
+            setData(DataSorting["upvotes"]);
+          }}
+        >
+          Most Upvoted
+        </Button>
       </Col>
       <Col span={4}>
         <Button>Most Recent</Button>
