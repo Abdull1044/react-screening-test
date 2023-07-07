@@ -5,7 +5,7 @@ const sortArticles = {
   // soring data accoring to most recent date
   date: () => [...Articles].sort((a, b) => new Date(b.date) - new Date(a.date)),
   // return orignal data
-  reset: () => Articles,
+  reset: () => [...Articles],
 };
 
 export default sortArticles;

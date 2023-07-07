@@ -21,4 +21,4 @@ function Buttons({ setData }) {
   );
 }
 
-export default Buttons;
+export default React.memo(Buttons);
