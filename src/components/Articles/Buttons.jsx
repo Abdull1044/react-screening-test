@@ -14,10 +14,12 @@ function Buttons({ setData }) {
         </Button>
       </Col>
       <Col span={4}>
-        <Button onClick={()=>setData(DataSorting['date'])}>Most Recent</Button>
+        <Button onClick={() => setData(DataSorting["date"])}>
+          Most Recent
+        </Button>
       </Col>
       <Col span={4}>
-        <Button>Reset</Button>
+        <Button onClick={() => setData(DataSorting["reset"])}>Reset</Button>
       </Col>
     </Row>
   );
